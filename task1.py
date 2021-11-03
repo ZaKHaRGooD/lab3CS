@@ -102,6 +102,7 @@ def output(finallytext, count):
 
 
 i = 0
+# Вывод в консоль результатов указанное количество раз
 while i < 5:
     output(generation_text(n_words, word_dict), i + 1)
     i += 1
